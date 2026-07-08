@@ -763,4 +763,57 @@ document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classL
 upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
 })();</script>
 <!--WY-C32P6:END-->
+<!--WY-C32P7:BEGIN-->
+<style id="wy-c32p7-css">
+.c32p7-fabbox{position:fixed;right:22px;bottom:78px;z-index:121;display:none;}
+.c32p7-fabbox.show{display:block;}
+.c32p7-btn{display:inline-flex;align-items:center;gap:9px;font-family:"Noto Sans TC",sans-serif;letter-spacing:.5px;color:#f7ecd2;background:linear-gradient(135deg,#573f38,#2e2420);padding:8px 15px;border-radius:22px;border:1px solid rgba(184,134,11,.6);box-shadow:0 4px 16px rgba(0,0,0,.3);cursor:pointer;opacity:.96;transition:opacity .3s,transform .2s,box-shadow .2s;}
+.c32p7-btn:hover{opacity:1;transform:translateY(-2px);box-shadow:0 6px 22px rgba(184,134,11,.5);}
+.c32p7-ic{font-size:15px;line-height:1;color:#ecc978;}
+.c32p7-ls{display:flex;flex-direction:column;align-items:flex-start;line-height:1.22;}
+.c32p7-l1{font-size:10.5px;font-weight:500;opacity:.82;white-space:nowrap;}
+.c32p7-l2{font-size:13px;font-weight:700;color:#faf1d8;white-space:nowrap;}
+.c32p7-modal{position:fixed;inset:0;z-index:200;display:none;align-items:center;justify-content:center;background:rgba(28,20,12,.58);padding:16px;}
+.c32p7-modal.open{display:flex;}
+.c32p7-card{position:relative;background:#fbf7ee;max-width:900px;width:100%;max-height:88vh;overflow:auto;border:1px solid #d8c8ac;border-radius:14px;padding:30px 24px 22px;box-shadow:0 18px 50px rgba(0,0,0,.4);}
+.c32p7-card h3{margin:0 0 2px;font-family:"Noto Serif TC",serif;font-size:20px;color:#8b5e3c;}
+.c32p7-card .sub{margin:0 0 14px;font-family:"Noto Sans TC",sans-serif;font-size:13px;color:#6b5b4b;}
+.c32p7-close{position:absolute;top:12px;right:16px;width:34px;height:34px;border:none;border-radius:50%;background:#efe6d4;color:#8b5e3c;font-size:22px;line-height:1;cursor:pointer;z-index:2;}
+.c32p7-close:hover{background:#e3d5b8;}
+.c32p7-tbl{width:100%;border-collapse:collapse;font-family:"Noto Sans TC",sans-serif;font-size:13px;margin:.3em 0 1.2em;}
+.c32p7-tbl caption{font-family:"Noto Serif TC",serif;font-weight:700;color:#8b5e3c;font-size:14.5px;text-align:left;margin:.6em 0 .35em;line-height:1.5;}
+.c32p7-tbl th,.c32p7-tbl td{border:1px solid #d8c8ac;padding:.45em .6em;text-align:left;vertical-align:top;line-height:1.6;}
+.c32p7-tbl thead th{background:#8b5e3c;color:#f7ecd2;font-weight:700;}
+.c32p7-tbl td:first-child{white-space:nowrap;color:#8b5e3c;font-weight:700;background:#f0e8d8;}
+.c32p7-tbl tbody tr:nth-child(even) td{background:#f6efe0;}
+.c32p7-tbl b{color:#8b2500;}
+.c32p7-note{font-size:12px;color:#5a4e3a;line-height:1.9;background:#f6efe0;border-left:3px solid #c4956a;border-radius:0 6px 6px 0;padding:10px 13px;margin:4px 0 0;}
+.c32p7-note b{color:#8b2500;}
+@media(max-width:900px){.c32p7-fabbox{right:14px;}.c32p7-tbl{font-size:11.5px;}.c32p7-card{padding:26px 14px 16px;}}
+</style>
+<div class="c32p7-fabbox" id="c32p7Box"><button class="c32p7-btn" id="c32p7Btn" type="button" aria-label="開啟全景總表"><span class="c32p7-ic">▦</span><span class="c32p7-ls"><span class="c32p7-l1">本品 · 解脫的邏輯</span><span class="c32p7-l2">從須陀洹到無餘涅槃 · 果位的悖論</span></span></button></div><div class="c32p7-modal" id="c32p7Modal" role="dialog" aria-modal="true" aria-label="全景總表"><div class="c32p7-card"><button class="c32p7-close" id="c32p7Close" type="button" aria-label="關閉">×</button><h3>卷三十二·第七品 解脫的邏輯 · 全景總表</h3><p class="sub">卷三十二・第七品｜四沙門果與無餘涅槃・阿那含未去而名不還之悖論・因多得名・觀名觀去來觀涅槃三重透視</p><table class="c32p7-tbl"><caption>一、四果原典與定義的悖論（本品主骨架）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>經文標舉</td><td>菩薩欲使十方眾生悉具戒定慧解脫解脫知見，得四沙門果乃至無餘涅槃，當學般若波羅蜜——五分法身為綱</td></tr><tr><td>四果字源</td><td>須陀洹（入流，入八聖道分流入涅槃）、斯陀含（一來，天上一來盡眾苦）、阿那含（不來相，欲界死生色無色界不復來生）、阿羅漢（應供，盡一切煩惱）</td></tr><tr><td>定義的悖論</td><td>現般泥洹與中般泥洹二類聖者根本未曾上生色界，技術上並無前往可言，卻同樣被歸類為不還——名相說不還，實相卻是當下即滅</td></tr><tr><td>無餘涅槃精確定義</td><td>阿羅漢捨此五眾，更不復相續受後五眾，身心苦皆悉永滅——非心理平靜，乃身心連續體的物理性終結</td></tr></tbody></table><table class="c32p7-tbl"><caption>二、不還之辯——統計歸納與意向中斷的雙解</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>解法一統計歸納</td><td>多數阿那含確實上生色界於彼漏盡，只有少數現滅中滅——因多得名，命名是分類學方便非對個別軌跡的絕對描述</td></tr><tr><td>解法二意向中斷</td><td>中滅者亦欲生色界，見後身可患，即取涅槃——如駕車中途見捷徑即離高速公路，初始意向已定方向</td></tr><tr><td>中陰身覺照力</td><td>凡夫於中陰因貪愛尋求受生，聖者視受生為火坑，於見後身可患一念中當下切斷行識因果鏈條</td></tr><tr><td>阿羅漢九德與有餘無餘之辨</td><td>退法不退法死法護法住法勝進法不壞法慧解脫共解脫九種，解脫結果無二無別；有餘涅槃如油盡火尚在，無餘涅槃如火滅不復添油</td></tr></tbody></table><table class="c32p7-tbl"><caption>三、中觀三重透視與邏輯總結（合題）</caption><thead><tr><th>環節</th><th>內容</th></tr></thead><tbody><tr><td>觀名無實</td><td>阿那伽彌只是基於統計多數的標籤，名相本是假名施設，不應執著字面去來，重點在煩惱的斷除</td></tr><tr><td>觀去來不可得</td><td>中陰身並無一實體的我在旅行，中般泥洹非旅人停在休息站，乃因見險而當下切斷行識的因果鏈條</td></tr><tr><td>觀涅槃無受</td><td>涅槃非所入之地而是不再生起，關鍵句更不復相續——不是建造新房子，而是停止磚塊的堆疊</td></tr><tr><td>四句口訣</td><td>名隨多數本無實，中陰見患斷行識，五眾不續名無餘，身心永滅證寂寂</td></tr><tr><td>邏輯總結</td><td>悖論（未去而名不還）→機制（中陰覺照斷流）→結果（無餘涅槃）→實相（名相本空寂滅為實）——不續的徹底性是阿那含與阿羅漢的分判</td></tr></tbody></table><p class="c32p7-note">本品以「阿那含未去而名不還」的命名悖論為核心，展現龍樹如何以中觀三重透視（觀名、觀去來、觀涅槃）照破聲聞四果的名相執著。名依多數而立（因多得名），去來不可得（中陰無實我旅行），涅槃只是不再生起（非所入之地）——三觀交攝，方見「不續的徹底性」才是阿那含與阿羅漢的真正分判。此品標誌全卷由「力用層」轉入「果德層」，為後續福德演算法與慧方便的菩薩道鋪墊聲聞道的參照座標。</p></div></div>
+<script id="wy-c32p7-js">(function(){
+var CH=document.querySelectorAll("section.chapter");
+var BTN=document.getElementById("c32p7Btn"),BOX=document.getElementById("c32p7Box"),MODAL=document.getElementById("c32p7Modal");
+if(!CH.length||!BTN||!BOX||!MODAL)return;
+var TARGET=6;
+function curIdx(){var lim=window.innerHeight*0.35,idx=-1;for(var i=0;i<CH.length;i++){if(CH[i].getBoundingClientRect().top<lim)idx=i;}return idx;}
+var FSEL="#vidFab,.vid-fab,#videoFab,#wyVideoBtn,#wyFab,#wy-fab,#vid-floating,#floatingYt,.video-fab,.wy-vbtn,.wy-video-fab,.floating-yt",_fab,_ft=false;
+function fab(){if(_fab&&_fab.isConnected)return _fab;if(_ft)return _fab;_ft=true;_fab=document.querySelector(FSEL);return _fab;}
+function place(){
+  var base=null,eb=document.querySelector(".wy-ebox");
+  if(eb){var r=eb.getBoundingClientRect();if(r.height>4)base=Math.round(window.innerHeight-r.top)+8;}
+  if(base===null){var fEl=fab();if(fEl){var fr=fEl.getBoundingClientRect(),st=getComputedStyle(fEl);if(fr.height>0&&st.display!=="none"&&st.visibility!=="hidden")base=Math.round(window.innerHeight-fr.top)+10;}}
+  if(base===null)base=78;
+  BOX.style.bottom=base+"px";
+}
+function upd(){place();BOX.classList.toggle("show",curIdx()===TARGET);}
+var tk=false;function onS(){if(!tk){tk=true;requestAnimationFrame(function(){tk=false;upd();});}}
+window.addEventListener("scroll",onS,{passive:true});window.addEventListener("resize",onS);
+BTN.addEventListener("click",function(){MODAL.classList.add("open");});
+MODAL.addEventListener("click",function(e){if(e.target===MODAL||e.target.id==="c32p7Close")MODAL.classList.remove("open");});
+document.addEventListener("keydown",function(e){if(e.key==="Escape")MODAL.classList.remove("open");});
+upd();var c=0,iv=setInterval(function(){upd();if(++c>40)clearInterval(iv);},250);
+})();</script>
+<!--WY-C32P7:END-->
 </body></html>
